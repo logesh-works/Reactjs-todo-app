@@ -1,0 +1,65 @@
+html{
+  margin: 0;
+  padding: 0;
+  
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../public/backgrounder.jpg");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  position: relative;
+  color: white;
+
+}
+.heading{
+  overflow: hidden;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgba(2000, 2000, 2000, 120);
+  
+  border: 3px solid gold;
+  border-radius:30px ;
+  text-align: center;
+  width: 18rem;
+  margin-top: 10%;
+  background-color: burlywood;
+}
+.heading h1:hover{
+  transform: scale(0.5);
+}
+.Form-input{
+  margin-top: 10%;
+  padding: 25px;
+  
+  }
+  input{
+    height: 30px;
+    border: 2px solid grey;
+    width: 250px;
+       
+  }
+  .SumbitBut{
+    margin: 10px;
+    height: 35px;
+  }
+  .SumbitBut:hover{
+    background-color:lightgreen ;
+    transform: scale(1.5);
+  }
+  table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  .delbutton{
+    margin: 10px;
+    height: 35px;
+  }
